@@ -1,0 +1,28 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: blue;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  color: white;
+  border-bottom: 5px dashed purple;
+  border-top: 8px dashed red;
+  border-right: 5px dashed blue;
+  border-left: 7px dashed green;
+}
+
+p {
+  color: yellow;
+  height: 200px;
+  width: 200px;
+  border-bottom: 3px solid purple;
+  border-top: 3px solid yellow;
+  border-right: 3px solid blue;
+  border-left: 3px solid blue;
+  border-top-left-radius: 20px;
+}

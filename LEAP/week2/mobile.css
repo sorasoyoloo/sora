@@ -1,0 +1,31 @@
+@media only screen and (max-width: 600px) {
+    #portfolioImages {
+      flex-direction: column;
+      row-gap: 30px;
+    }
+  
+    #groupPortfolioImages {
+      row-gap: 30px;
+    }
+  
+    #profile {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    #socialMediaIcons {
+      justify-content: center;
+    }
+  
+    #icon {
+      height: 24px;
+      width: 24px;
+    }
+  
+    #container {
+      margin: 0 auto;
+      max-width: 350px;
+    }
+  }
+
+  

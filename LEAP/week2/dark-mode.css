@@ -1,0 +1,31 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  h1 {
+    color: #f1f2f4;
+  }
+
+  p {
+    color: #a3abb2;
+  }
+
+  #descriptionText {
+    color: #a3abb2;
+  }
+
+  #descriptionNumber {
+    color: #a3abb2;
+  }
+
+  #icon {
+    fill: #a3abb2;
+  }
+
+  #darkModeButton {
+    background-color: #171f26;
+  }
+}

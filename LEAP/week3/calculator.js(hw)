@@ -1,0 +1,274 @@
+// console.log(12 * 28);
+// console.log(12 + 28);
+// console.log(12 / 28);
+// console.log(12 % 28);
+// console.log(true);
+// console.log(false);
+// console.log("testing");
+// console.log("Hello, world");
+// let multipliedNumber = 12 * 10;
+// console.log(multipliedNumber);
+// let summedNumber = 12 + 28;
+// console.log(summedNumber);
+
+// let x = 2;
+// let y = 3;
+
+// if (x > y) {
+//   console.log("X is higher number");
+// } else if (x == y) {
+//   console.log("X equals Y");
+// } else {
+//   console.log("Y is higher number");
+// }
+
+// let week = 7;
+// let Monday;
+// if (week == 1) {
+//   console.log("Today is Monday");
+// } else if (week == 2) {
+//   console.log("Today is Tuesday");
+// } else if (week == 3) {
+//   console.log("Today is Wednesday");
+// } else if (week == 4) {
+//   console.log("Today is Thursday");
+// } else if (week == 5) {
+//   console.log("Today is Friday");
+// } else if (week == 6) {
+//   console.log("Today is Saturday");
+// } else {
+//   console.log("Today is Sunday");
+// }
+
+// let a = 5;
+// let b = -5;
+// let c = 6;
+
+// if (a * b * c >= 0) {
+//   console.log("positive");
+// } else {
+//   console.log("negative");
+// }
+
+// let q = 1;
+// let w = 2;
+// let e = 3;
+// let r = 4;
+// let t = 5;
+
+//let max = q;
+
+//if (max < q) {
+ // max = q;
+//}
+//if (max < w) {
+  //max = w;
+//}
+//if (max < e) {
+ // max = e;
+//}
+//if (max < r) {
+ // max = r;
+//}
+//if (max < t) 
+//{
+  //max = t;
+//}
+//console.log("max is highest number", max);
+
+// let l = 9;
+// let m = 0;
+// let h = 7;
+// let f = 5;
+// let v = 8;
+
+// let min = l;
+// if (min < l) {
+//   min = l;
+// }
+// if (min < m) {
+//   min = m;
+// }
+// if (min < h) {
+//   min = h;
+// }
+// if (min < f) {
+//   min = f;
+// }
+// if (min < v) {
+//   min = v;
+// }
+// console.log("min is highest number", min);
+
+// week = 7;
+
+// switch (week) {
+//   case 1:
+//     console.log(" 1 is Monday");
+//     break;
+//   case 2:
+//     console.log(" 2 is Tuesday");
+//     break;
+//   case 3:
+//     console.log(" 3 is Wednesday");
+//     break;
+//   case 4:
+//     console.log(" 4 is Thursday");
+//     break;
+//   case 5:
+//     console.log(" 5 is Friday");
+//     break;
+//   case 6:
+//     console.log(" 6 is Saturday");
+//     break;
+//   case 7:
+//     console.log(" 7 is Sunday");
+//   default:
+//     console.log(" 1 is Monday");
+// }
+
+// let k = 30;
+// let j = 400;
+// let o = 50;
+
+// if (k < j && k < o) {
+//   console.log("Minimum value is " + k);
+// } else if (j < k && j < o) {
+//   console.log("Minimum value is " + j);
+// } else if (o < j && o < k) {
+//   console.log("Minimum value is " + o);
+// }
+
+// // console.log("highest number is " max);
+// const u = 10;
+// const i = 30;
+// const z = 50;
+
+// if (u > i && u > z) {
+// }
+
+// const s = 32;
+
+// if (s % 2 == 0) {
+//   console.log("even");
+// } else {
+//   console.log("odd");
+// }
+
+// let first = 7;
+// let second = 2;
+// let third = 9;
+// let fourth = 3;
+
+// var secondLargest;
+
+// if (first > second && first > third && first > fourth) {
+//   if (second > third && second > fourth && second > first) {
+//     secondLargest = second;
+//   } else if (third > second && third > fourth) {
+//     secondLargest = third;
+//   } else {
+//     secondLargest = fourth;
+//   }
+// }
+
+// if (second > first && second > third && second > fourth) {
+//   if (first > third && first > fourth) {
+//     secondLargest = first;
+//   } else if (third > first && third > fourth) {
+//     secondLargest = third;
+//   } else {
+//     secondLargest = fourth;
+//   }
+// }
+
+// if (third > first && third > second && third > fourth) {
+//   if (first > second && first > fourth) {
+//     secondLargest = first;
+//   } else if (second > first && second > fourth) {
+//     secondLargest = second;
+//   } else {
+//     secondLargest = fourth;
+//   }
+// }
+
+// if (fourth > first && fourth > second && fourth > third) {
+//   if (first > second && first > third) {
+//     secondLargest = first;
+//   } else if (second > first && second > third) {
+//     secondLargest = second;
+//   } else {
+//     secondLargest = third;
+//   }
+// }
+
+// console.log(secondLargest);
+
+// let n = 2;
+// let array = [1, 2, 3, 4, 5];
+// console.log(array[n]);
+
+// array[n]=n;
+// console.log(array[n], array);
+
+// let array=[1,2,3,4,5];
+// console.log((array[0]+array[1]+array[2]+array[3]+array[4])/5);
+
+// let array= [1,2,3];
+// let index;
+
+// if (array[0] >= array[1] && array[0] >= array[2]){
+//   index=0;
+// } else if (array[1] >= array[0] && array[1] >= array[2]){
+//   index=1;
+// } else (array[2] >= array[0] && array[2] >= array[1])
+//   index=2;
+
+// console.log(index);
+
+//let array = [1, 2, 3, 4];
+
+
+
+
+//let n = 9;
+
+//let array = [1,2,3,4,5,6,7,8,9];
+
+//let i = 0;
+
+//while (i < n) {
+  //console.log(array[i]);
+  //i++;
+//}
+
+//let array = [5,4,2,7];
+
+//let a = array[0];
+//let b = array[1];
+//let c = array[2];
+//let d = array[3];
+
+//array[0] = d;
+//array[1] = c;
+//array[2] = b;
+//array[3] = a;
+
+//console.log(array);
+
+let test = [1,2,3,4,5];
+
+let a = test[0];
+let b = test[1];
+let c = test[2];
+let d = test[3];
+let e = test[4];
+
+let max; 
+
+
+
+
+
+
+
